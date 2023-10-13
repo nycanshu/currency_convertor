@@ -45,7 +45,7 @@ class _CurrencyCOnvertorHomePage extends State<CurrencyConvertorHomePage> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(8.0),
               child: TextField(
                 style: const TextStyle(color: Colors.black),
                 controller: textEditingController,
